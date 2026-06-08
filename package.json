@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3000",
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "json-server": "^0.17.4",
+    "concurrently": "latest"
+  },
+  "devDependencies": {}
+}

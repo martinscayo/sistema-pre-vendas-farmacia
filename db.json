@@ -1,0 +1,58 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João Batista",
+      "email": "joao@email.com",
+      "telefone": "(32) 98845-1122",
+      "cidade": "Juiz de Fora",
+      "status": "Cliente ativo"
+    },
+    {
+      "id": 2,
+      "nome": "Ana Paula",
+      "email": "ana@email.com",
+      "telefone": "(32) 99771-2300",
+      "cidade": "Matias Barbosa",
+      "status": "Aguardando retorno"
+    },
+    {
+      "id": 3,
+      "nome": "Roberto Lima",
+      "email": "roberto@email.com",
+      "telefone": "(32) 98444-9090",
+      "cidade": "Bicas",
+      "status": "Cliente ativo"
+    }
+  ],
+  "atendimentos": [
+    {
+      "id": 1,
+      "cliente": "João Batista",
+      "assunto": "Dipirona 500mg",
+      "prioridade": "Em separação",
+      "data": "2026-06-04"
+    },
+    {
+      "id": 2,
+      "cliente": "Ana Paula",
+      "assunto": "Vitamina C + Zinco",
+      "prioridade": "Aguardando pagamento",
+      "data": "2026-06-05"
+    },
+    {
+      "id": 3,
+      "cliente": "Roberto Lima",
+      "assunto": "Ômega 3",
+      "prioridade": "Entregue",
+      "data": "2026-06-06"
+    },
+    {
+      "id": 4,
+      "cliente": "João Batista",
+      "assunto": "Colágeno Hidrolisado",
+      "prioridade": "Em atendimento",
+      "data": "2026-06-07"
+    }
+  ]
+}
