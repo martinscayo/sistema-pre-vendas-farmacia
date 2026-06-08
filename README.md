@@ -1,31 +1,25 @@
-# ClientHub - Cadastro de Clientes
+# FarmaFlow
 
-Projeto React + Vite + JSON Server para simular um sistema simples de cadastro de clientes e atendimentos.
+Sistema de pré-vendas para farmácia desenvolvido com React, Vite e JSON Server.
 
 ## Funcionalidades
 
-- Listagem de clientes
-- Cadastro de novo cliente
-- Listagem de atendimentos
-- Consumo de API fake com JSON Server
-- Rotas com React Router
-- Layout responsivo com CSS próprio
+* Cadastro de clientes
+* Consulta de clientes cadastrados
+* Controle e acompanhamento de pedidos
+* Interface responsiva
+* Consumo de API simulada com JSON Server
 
-## Como rodar
+## Tecnologias utilizadas
 
-Instale as dependências:
+* React
+* Vite
+* JavaScript
+* React Router DOM
+* JSON Server
+* CSS3
 
-```bash
-npm install
-```
+## Objetivo
 
-Rode o front-end e o JSON Server juntos:
+Aplicar conceitos de desenvolvimento Front-End, consumo de APIs, roteamento de páginas e componentização utilizando React.
 
-```bash
-npm start
-```
-
-Acesse:
-
-- Front-end: http://localhost:5173
-- API fake: http://localhost:3000/clientes
